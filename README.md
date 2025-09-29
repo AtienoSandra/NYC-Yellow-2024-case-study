@@ -41,9 +41,12 @@ Each number paints a moving picture of how the city travels.
 ## ▶️ How to Run  
 
 This project is built using **DuckDB SQL**. Follow these steps to reproduce the analysis:  
-**i.Clone the repo**  
+**i.Clone the repo** 
+
 **ii. Open DuckDB** - install DuckDB
-**iii. Run the SQL script** - Launch DuckDB and execute the script:
+
+**iii. Run the SQL script** - Launch DuckDB and execute the script
+
 **iv.Check the output**
 
 
