@@ -38,5 +38,43 @@ data into **practical insights**.
 
 Each number paints a moving picture of how the city travels.  
 
+## ▶️ How to Run  
+
+This project is built using **DuckDB SQL**. Follow these steps to reproduce the analysis:  
+
+## 1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/yourusername/nyc-yellow-taxi-2024.git
+   cd nyc-yellow-taxi-2024
+Open DuckDB
+If you don’t have DuckDB installed:
+
+bash
+Copy code
+pip install duckdb
+Or download the CLI from DuckDB releases.
+
+Run the SQL script
+Launch DuckDB and execute the script:
+
+sql
+Copy code
+.open nyc_taxi_2024.duckdb
+.read nyc_case_study.sql
+This will:
+
+Load the 2024 yellow taxi parquet files directly from the NYC TLC cloud storage.
+
+Clean and validate the dataset.
+
+Generate summary statistics, seasonal insights, and payment breakdowns.
+
+Check the output
+
+Results will be written to the file:
+
+Copy code
+nyc_case_study_output.txt
+
 
 
