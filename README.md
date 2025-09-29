@@ -12,7 +12,7 @@ revenue shifts, and data quality issues that affect decision-making. This projec
 data into **practical insights**.  
 
 ## 📜 Scripts  
-🔗 [View the SQL Script](./trips_2024_analysis.sql)  
+🔗 [View the SQL Script](https://github.com/AtienoSandra/NYC-Yellow-2024-case-study/blob/main/nyc24_casestudy_queries.sql)  
 
 ## 📂 Workflow  
 1. **Raw Data Load** – Import NYC taxi trips dataset.  
